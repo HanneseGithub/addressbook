@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AddressBook.jnlp">
+  <information>
+    <title>AddressBook</title>
+    <vendor>makery.ch</vendor>
+    <description>AddressApp</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AddressBook.jar" size="19127" download="eager" />
+    <jar href="libs/javafx-swt.jar" size="37118" download="eager" />
+    <jar href="libs/javafx.base.jar" size="745370" download="eager" />
+    <jar href="libs/javafx.controls.jar" size="2531050" download="eager" />
+    <jar href="libs/javafx.fxml.jar" size="128790" download="eager" />
+    <jar href="libs/javafx.graphics.jar" size="4460799" download="eager" />
+    <jar href="libs/javafx.media.jar" size="271997" download="eager" />
+    <jar href="libs/javafx.swing.jar" size="88725" download="eager" />
+    <jar href="libs/javafx.web.jar" size="725645" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="ch.makery.address.MainApp"  name="AddressApp" />
+  <update check="background"/>
+</jnlp>
